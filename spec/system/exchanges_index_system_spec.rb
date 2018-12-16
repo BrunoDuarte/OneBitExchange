@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "Exchange Currency Process", :type => :system, js: true do
+  
   it "show exchanged value" do
     visit '/'
     within("#exchange_form") do
